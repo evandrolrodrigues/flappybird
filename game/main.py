@@ -177,7 +177,7 @@ def game_over(tela):
     texto = fonte.render("GAME OVER", True, (255, 0, 0))
     tela.blit(texto, (TELA_LARGURA // 2 - texto.get_width() // 2, TELA_ALTURA // 2 - texto.get_height() // 2))
     pygame.display.update()
-    pygame.time.delay(2000)  # Espera 2 segundos antes de fechar o jogo
+    pygame.time.delay(2000)  
 
 
 def main():
@@ -214,7 +214,7 @@ def main():
             for i, passaro in enumerate(passaros):
                 if cano.colidir(passaro):
                     passaros.pop(i)
-                    game_over(tela)  # Chamando game_over quando o pássaro colide
+                    game_over(tela) 
                 if not cano.passou and passaro.x > cano.x:
                     cano.passou = True
                     adicionar_cano = True
@@ -231,7 +231,7 @@ def main():
         for i, passaro in enumerate(passaros):
             if (passaro.y + passaro.imagem.get_height()) > chao.y or passaro.y < 0:
                 passaros.pop(i)
-                game_over(tela)  # Chamando game_over quando o pássaro cai
+                game_over(tela)  
 
         desenhar_tela(tela, passaros, canos, chao, pontos)
 
