@@ -21,9 +21,6 @@ Este jogo foi criado como parte de um curso online da Hashtag Programação, min
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de pull (pull requests) se desejar melhorar este projeto.
 
-## Licença
-Este projeto está licenciado sob a [sua licença aqui]. Consulte o arquivo `LICENSE` para obter mais detalhes.
-
 ---
 
 Divirta-se jogando o Flappy Bird Clone! 😄
